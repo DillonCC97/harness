@@ -5262,6 +5262,9 @@ ROUND UPS BNR
 #email-input {
     width: 635px;
     height: 47px;
+    padding: 5px 5px 5px 5px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
 }
 
 #email-submit {
@@ -5312,6 +5315,7 @@ ROUND UPS BNR
 
 .half-module {
     background-color: #ffffff;
+    box-shadow: 0 0 4.5px 1.5px rgba(0, 0, 0, 0.10);
 }
 
 #left-half-module {

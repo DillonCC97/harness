@@ -2,9 +2,12 @@
 <html class="no-js" lang="en">
 
 <head>
+    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="author" content="Code_n_Co" />
+    <meta property="og:image" content="images/harness-logo.png" />
+
     <!-- Document Title -->
     <title>Harness Change</title>
 
@@ -17,8 +20,10 @@
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index-style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="js/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css">
 
     <!-- Fonts Online -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Playfair+Display:400,700,900&subset=cyrillic,latin-ext" rel="stylesheet">
@@ -82,23 +87,36 @@
         <!-- End Header -->
 
         <!--======= SU Banner =========-->
-        <div class="sub-bnr-home">
-            <div class="position-center-center">
-                <div class="container">
-                    <div class="ag-text">
-                        <h1>Welcome to 21st century fundraising</h1>
-                        <p>Money has changed. We're living in a tap-in, tap-out world. So Harness has created a series of seamlessly connected technologies that get your organisation in your donor's pocket, in a 21st century way - helping you make big things happen a little each day.</p>
+        <div class="circle-container">
+            <div class="circle">
+                <div class="sub-bnr-home">
+                    <div class="position-center-center">
+                        <div class="container">
+                            <div class="ag-text">
+                                <div class="phone phone-1">
+                                    <img src="images/phone-screen-cair.png" srcset="images/phone-screen-cair@2x.png 2x,
+                                                 images/phone-screen-cair@3x.png 3x" class="phone-screen-cair">
+                                </div>
+                                <div class="phone phone-2">
+                                    <img src="images/phone-screen-rmhc.png" srcset="images/phone-screen-rmhc@2x.png 2x,
+                                                 images/phone-screen-rmhc@3x.png 3x" class="phone-screen-rmhc">
+                                </div>
+                                <h1>Welcome to 21st century fundraising</h1>
+                                <p>Money has changed. We're living in a tap-in, tap-out world. So Harness has created a series of seamlessly connected technologies that get your organisation in your donor's pocket, in a 21st century way - helping you make big things happen a little each day.</p>
 
-                        <a href="#">REQUEST DEMO</a>
-                        <!--</article>-->
+                                <a href="#">REQUEST DEMO</a>
 
+                                <!--</article>-->
+
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
         <!-- Content -->
-        <div id="content" class="inner-pages">
+        <div id="content" class="inner-pages padding-bottom-80">
 
             <!-- Services -->
             <section id="content-section-1" class="services web row">
@@ -166,51 +184,11 @@
 
                     <!-- Slider -->
                     <!-- TODO change carosel buttons -->
-                    <div class="slider-sec">
-                        <div id="testi-slide">
-
-                            <!-- Slide -->
+                    <div class="slick-container">
+                        <div class="slick">
                             <div class="item">
-                                <div class="media-body">
-                                    <div class="tesi-text">
-                                        <h3>round-ups</h3>
-
-                                        <h1>Small change that makes a big difference</h1>
-                                        <p>Round-Ups seamlessly turns the leftover change from everyday purchases into donations. Morning coffees have never been so powerful.</p>
-
-                                        <a href="#">LEARN MORE</a>
-
-                                    </div>
-                                </div>
-                                <div class="media-right">
-                                    <div class="avatar-sec"> <img class="img-responsive" src="images/image-home-phone-roundups.png" alt="">
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Slide -->
-                            <div class="item">
-                                <div class="media-body">
-                                    <div class="tesi-text">
-                                        <h1>Small change that makes a big difference</h1>
-                                        <p>Round-Ups seamlessly turns the leftover change from everyday purchases into donations. Morning coffees have never been so powerful.</p>
-
-                                        <a href="#">LEARN MORE</a>
-
-                                    </div>
-                                </div>
-                                <div class="media-right">
-                                    <div class="avatar-sec"> <img class="img-responsive" src="images/image-home-phone-roundups.png" alt="">
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Slide -->
-                            <div class="item">
-                                <div class="media-body">
-                                    <div class="tesi-text">
+                                <div class="row">
+                                    <div class="col-md-5 col-md-offset-1">
                                         <h3>round-ups</h3>
                                         <h1>Small change that makes a big difference</h1>
                                         <p>Round-Ups seamlessly turns the leftover change from everyday purchases into donations. Morning coffees have never been so powerful.</p>
@@ -218,17 +196,47 @@
                                         <a href="#">LEARN MORE</a>
 
                                     </div>
-                                </div>
-                                <div class="media-right">
-                                    <div class="avatar-sec"> <img class="img-responsive" src="images/image-home-phone-roundups.png" alt="">
-
+                                    <div class="col-md-5">
+                                        <img class="slick-img-right display-block" src="images/image-home-phone-roundups.png" alt="">
                                     </div>
                                 </div>
                             </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-md-5 col-md-offset-1">
+                                        <h3>round-ups</h3>
+                                        <h1>Small change that makes a big difference</h1>
+                                        <p>Round-Ups seamlessly turns the leftover change from everyday purchases into donations. Morning coffees have never been so powerful.</p>
 
+                                        <a href="#">LEARN MORE</a>
 
+                                    </div>
+                                    <div class="col-md-5">
+                                        <!-- TODO vertically center images in slick -->
+                                        <img class="slick-img-right display-block" src="images/image-home-phone-roundups.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-md-5 col-md-offset-1">
+                                        <h3>round-ups</h3>
+                                        <h1>Small change that makes a big difference</h1>
+                                        <p>Round-Ups seamlessly turns the leftover change from everyday purchases into donations. Morning coffees have never been so powerful.</p>
+
+                                        <a href="#">LEARN MORE</a>
+
+                                    </div>
+                                    <div class="col-md-5">
+                                        <img class="slick-img-right display-block" src="images/image-home-phone-roundups.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+
                     </div>
+
+
 
                     <!-- HEADING BLOCK -->
                     <div class="heading-block-3 text-center">
@@ -261,15 +269,15 @@
                             <ul class="row">
 
                                 <!-- Text Detail -->
-                                <li class="col-md-5">
+                                <li class="col-md-5 col-md-offset-1">
                                     <div class="text-info">
-                                        <h3 class="tittle">A small company with a big mission</h3>
+                                        <h3 class="title">A small company with a big mission</h3>
                                         <p>We believe that traditional fundraising is flawed. So we found a way to modernise it, and bring it into the 21st Century. We call it connected giving.</p>
                                     </div>
                                 </li>
 
                                 <!-- Img -->
-                                <li class="col-md-7"> <img class="img-right animate fadeInRight" data-wow-delay="0.4s" src="images/illustration-home-our-company.png" alt=""> </li>
+                                <li class="col-md-5 col-xs-12"> <img class=" animate fadeInRight center-block" data-wow-delay="0.4s" src="images/illustration-home-our-company.png" alt=""> </li>
                             </ul>
                         </article>
 
@@ -279,89 +287,97 @@
             </section>
 
             <!-- TODO Finish half-module -->
-            <div class="row half-module">
-                <div id="left-half-module" class="col-md-5 col-md-offset-1"></div>
-                <div id="right-half-module" class="col-md-5"></div>
+            <div class="container">
+                <div class="row half-module">
+                    <div id="left-half-module" class="col-md-6">
+                        <h1>Interested? <br>Request a demo</h1>
+                        <p>If you like what you're reading, contact our team for your free demo of Harness.</p>
+                        <a href="#">REQUEST DEMO</a>
+                    </div>
+                    <div id="right-half-module" class="col-md-6">
+                        <h1>Peace of mind, with every donation</h1>
+                        <p>All Custom Donations made via Harness go through our SSL Encryption security service.</p>
+                        <img src="images/illustration-home-security.png" srcset="images/illustration-home-security@2x.png 2x,
+                                     images/illustration-home-security@3x.png 3x" class="illustration-home-security">
+                    </div>
+                </div>
             </div>
         </div>
-        <!-- TODO Fix white background below half module -->
         <!-- End Content -->
 
         <!-- Footer -->
-        <div class="home-2">
-            <footer class="footer footer-sub padding-top-200">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <h5 class="footer-label">OUR PRODUCTS</h5>
-                            <ul>
-                                <li><a href="#">Round-ups</a></li>
-                                <li><a href="#">Flash Donations</a></li>
-                                <li><a href="#">Custom Donations</a></li>
-                                <li><a href="#">Feedback</a></li>
-                                <li><a href="#">Analyze</a></li>
-                                <li><a href="#">White Label</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3">
-                            <h5 class="footer-label">OUR PARTNERS</h5>
-                            <ul>
-                                <li><a href="#">Non-profit</a></li>
-                                <li><a href="#">Religious</a></li>
-                                <li><a href="#">Foundations</a></li>
-                                <li><a href="#">Alumni</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3">
-                            <h5 class="footer-label">OUR PHILOSOPHY</h5>
-                            <ul>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Customers</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                                <li><a href="#">Legal</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3">
-                            <h5 class="footer-label">DASHBOARD</h5>
-                            <ul>
-                                <li><a href="#">Sign In</a></li>
-                                <li><a href="#">Request a Demo</a></li>
-                            </ul>
-                        </div>
+        <footer class="footer footer-sub padding-top-65">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5 class="footer-label">OUR PRODUCTS</h5>
+                        <ul>
+                            <li><a href="#">Round-ups</a></li>
+                            <li><a href="#">Flash Donations</a></li>
+                            <li><a href="#">Custom Donations</a></li>
+                            <li><a href="#">Feedback</a></li>
+                            <li><a href="#">Analyze</a></li>
+                            <li><a href="#">White Label</a></li>
+                        </ul>
                     </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <p id="newsletter-label" class="footer-label">SIGN UP TO OUR NEWSLETTER</p>
-                        </div>
+                    <div class="col-md-3">
+                        <h5 class="footer-label">OUR PARTNERS</h5>
+                        <ul>
+                            <li><a href="#">Non-profit</a></li>
+                            <li><a href="#">Religious</a></li>
+                            <li><a href="#">Foundations</a></li>
+                            <li><a href="#">Alumni</a></li>
+                        </ul>
                     </div>
-                    <div class="row">
-                        <div class="col-md-9">
-                            <form id="newsletter-form">
-                                <input id="email-input" type="text"><button class="btn btn-default" id="email-submit">SIGN UP</button>
-                            </form>
-                        </div>
-                        <div class="col-md-3">
-                            <img src="images/harness-logo-white.png" srcset="images/harness-logo@2x-white.png 2x,
-                                         images/harness-logo@3x-white.png 3x" class="harness_logo">
-                        </div>
+                    <div class="col-md-3">
+                        <h5 class="footer-label">OUR PHILOSOPHY</h5>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Customers</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Legal</a></li>
+                        </ul>
                     </div>
-                    <div id="policies" class="row">
-                        <div class="col-md-2">
-                            <p><a href="#">Terms of Use</a></p>
-                        </div>
-                        <div class="col-md-2">
-                            <p><a href="#">Privacy Policy</a></p>
-                        </div>
-                        <div class="col-md-2">
-                            <p><a href="#">Cookie Policy</a></p>
-                        </div>
-                        <div class="col-md-2">
-                            <p>&copy;Harness 2017</p>
-                        </div>
+                    <div class="col-md-3">
+                        <h5 class="footer-label">DASHBOARD</h5>
+                        <ul>
+                            <li><a href="#">Sign In</a></li>
+                            <li><a href="#">Request a Demo</a></li>
+                        </ul>
                     </div>
                 </div>
-            </footer>
-        </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p id="newsletter-label" class="footer-label">SIGN UP TO OUR NEWSLETTER</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-9">
+                        <form id="newsletter-form">
+                            <input id="email-input" type="text"><button class="btn btn-default" id="email-submit">SIGN UP</button>
+                        </form>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/harness-logo-white.png" srcset="images/harness-logo@2x-white.png 2x,
+                                         images/harness-logo@3x-white.png 3x" class="harness_logo">
+                    </div>
+                </div>
+                <div id="policies" class="row">
+                    <div class="col-md-2">
+                        <p><a href="#">Terms of Use</a></p>
+                    </div>
+                    <div class="col-md-2">
+                        <p><a href="#">Privacy Policy</a></p>
+                    </div>
+                    <div class="col-md-2">
+                        <p><a href="#">Cookie Policy</a></p>
+                    </div>
+                    <div class="col-md-2">
+                        <p>&copy;Harness 2017</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
         <!-- End Footer -->
 
         <!-- GO TO TOP  -->
@@ -453,6 +469,7 @@
     <script src="js/vendors/jquery.sticky.js"></script>
     <script src="js/vendors/owl.carousel.min.js"></script>
     <script src="js/vendors/color-switcher.js"></script>
+    <script src="js/slick/slick.min.js"></script>
 
     <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
     <script type="text/javascript" src="rs-plugin/js/jquery.tp.t.min.js"></script>

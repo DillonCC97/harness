@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+}
+
+.circle-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.circle {
+    background-image: linear-gradient(to right, #081d4c 0%, #3e82f7 97%);
+    width: 120%;
+    height: 100vh;
+    border-radius: 50% / 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-left: -10%;
+    margin-right: -10%;
+    margin-top: -10px;
+    overflow: hidden;
+}
+
+.home-2 {
+    background-color: #f8f8f8;
+}
+
+
+
+
+
+

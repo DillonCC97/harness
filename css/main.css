@@ -1295,7 +1295,7 @@ opacity:0;
     user-select: none;
 }
 .owl-carousel .owl-item img {
-    display: block;
+    display: inline-block;
     -webkit-transform-style: preserve-3d;
 }
 .owl-carousel.owl-text-select-on .owl-item {

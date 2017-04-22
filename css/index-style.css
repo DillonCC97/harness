@@ -5555,3 +5555,13 @@ footer {
 #policies div p a {
     color: #ffffff;
 }
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.vert-center {
+    vertical-align: middle;
+}

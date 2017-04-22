@@ -3850,16 +3850,15 @@ header.header-3d {
 .testimonial h1 {
     margin-bottom: 20px;
     width: 283px;
-    height: 135px;
     font-family: Martel;
     font-size: 40px;
     line-height: 1.15;
     text-align: left;
     color: #081d4c;
+    font-weight: 100;
 }
 
 .testimonial h3 {
-    width: 122px;
     height: 12px;
     font-family: Work Sans;
     font-size: 16px;
@@ -3895,7 +3894,6 @@ header.header-3d {
 
 .testimonial p {
     width: 383px;
-    height: 90px;
     font-family: Work Sans;
     font-size: 18px;
     line-height: 1.33;
@@ -4001,9 +3999,10 @@ header.header-3d {
 
 .client-img li {
     float: left;
-    width: 20%;
     text-align: center;
 }
+
+
 
 
 /*=======================================================
@@ -5238,7 +5237,7 @@ ROUND UPS BNR
 /**********************************************************************/
 
 .footer-label {
-    font-family: WorkSans;
+    font-family: 'Work Sans', sans-serif;
     font-weight: normal;
     font-size: 17px;
     line-height: 1.88;
@@ -5248,7 +5247,7 @@ ROUND UPS BNR
 }
 
 .footer-label+ul a {
-    font-family: WorkSans;
+    font-family: 'Work Sans', sans-serif;
     font-size: 17px;
     line-height: 1.88;
     letter-spacing: -0.1px;
@@ -5269,7 +5268,7 @@ ROUND UPS BNR
     font-size: 21px;
     padding: 12px 22px 16px 22px;
     height: 47px;
-    font-family: WorkSans;
+    font-family: 'Work Sans', sans-serif;
     line-height: 1;
     letter-spacing: 0.2px;
     background-color: #3e82f7;
@@ -5334,7 +5333,7 @@ ROUND UPS BNR
 }
 
 #left-half-module p {
-    font-family: WorkSans;
+    font-family: 'Work Sans', sans-serif;
     font-size: 18px;
     line-height: 1.33;
     text-align: left;
@@ -5382,7 +5381,7 @@ ROUND UPS BNR
 }
 
 #right-half-module p {
-    font-family: WorkSans;
+    font-family: 'Work Sans', sans-serif;
     font-size: 18px;
     line-height: 1.33;
     text-align: left;
@@ -5397,7 +5396,7 @@ ROUND UPS BNR
     height: 60px;
     border-radius: 30px;
     background-color: #3e82f7;
-    font-family: Work Sans;
+    font-family: 'Work Sans', sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.44;
@@ -5499,4 +5498,38 @@ footer {
 .testimonial a:hover, #left-half-module a:hover {
     background: #fff;
     color: #3e82f7;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+::-webkit-scrollbar-thumb {
+    background: #2dd6a5;
+    border: 36px none #ca0000;
+    border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #87b8ff;
+}
+::-webkit-scrollbar-thumb:active {
+    background: #2dd6a5;
+}
+::-webkit-scrollbar-track {
+    background: #ffffff;
+    border: 0px none #ffffff;
+    border-radius: 0px;
+}
+::-webkit-scrollbar-track:hover {
+    background: #ffffff;
+}
+::-webkit-scrollbar-track:active {
+    background: #d7d7d7;
+}
+::-webkit-scrollbar-corner {
+    background: transparent;
 }

@@ -1406,7 +1406,6 @@ header.header-3d {
 
 .sub-bnr-home h1 {
     width: 372px;
-    height: 202px;
     font-family: 'Martel', serif;
     font-size: 62px;
     color: #ffffff;
@@ -4506,8 +4505,14 @@ header.header-3d {
     color: #cccccc !important;
 }
 
+/*
 .footer.footer-sub a {
-    color: #ffffff !important;
+    color: #ffffff;
+}
+*/
+
+.footer-label+ul a:hover {
+    color: #acacac;
 }
 
 .footer.footer-sub .subcribe {
@@ -5545,4 +5550,8 @@ footer {
 
 .text-info h3 {
     line-height: 1.3;
+}
+
+#policies div p a {
+    color: #ffffff;
 }

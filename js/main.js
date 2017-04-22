@@ -386,7 +386,9 @@ function Scroll() {
 $(document).ready(function () {
     $('.slick').slick({
         dots: true,
-        prevArrow:"<img class='a-left control-c prev slick-prev' src='images/prev-arrow.png'>",
-        nextArrow:"<img class='a-right control-c next slick-next' src='images/next-arrow.png'>"
+        prevArrow:"<img class='a-left control-c prev slick-prev' src='images/arrow-left.png'>",
+        nextArrow:"<img class='a-right control-c next slick-next' src='images/arrow-right.png'>",
+        autoplay: true,
+        autoplaySpeed: 11000
     });
 });

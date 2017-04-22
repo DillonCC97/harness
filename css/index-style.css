@@ -5533,3 +5533,12 @@ footer {
 ::-webkit-scrollbar-corner {
     background: transparent;
 }
+
+.slick-prev, .slick-next {
+    height: 50px !important;
+    width: 50px !important;
+}
+
+.text-info h3 {
+    line-height: 1.3;
+}

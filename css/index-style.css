@@ -4534,7 +4534,7 @@ header.header-3d {
 .cd-top {
     display: inline-block;
     height: 50px;
-    z-index: 9;
+    z-index: 998;
     width: 50px;
     position: fixed;
     bottom: 40px;
@@ -5568,4 +5568,8 @@ footer {
 
 .slick-list, .slick-slide {
     outline: none;
+}
+
+#on-top {
+    z-index: 997;
 }

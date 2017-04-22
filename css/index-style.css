@@ -235,7 +235,7 @@ a:focus {}
 .position-center-center {
     left: 50%;
     position: absolute;
-    top: 52%;
+    top: 55%;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -5442,12 +5442,12 @@ ROUND UPS BNR
     width: 120%;
     height: 130vh;
     min-height: 1200px;
-    /*    max-height: 1154px;*/
+    min-width: 2297px;
     border-radius: 85% / 100%;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-    margin-left: -10%;
-    margin-right: -10%;
+    margin-left: calc(0px - ((2297px - 100vw) * 0.5));
+    margin-right: calc(0px - ((2297px - 100vw) * 0.5));
     overflow: hidden;
 }
 
@@ -5564,4 +5564,8 @@ footer {
 
 .vert-center {
     vertical-align: middle;
+}
+
+.slick-list, .slick-slide {
+    outline: none;
 }

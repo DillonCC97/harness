@@ -1452,9 +1452,12 @@ header.header-3d {
 }
 
 .sub-bnr-roundups {
-    height: 990px;
-    margin-top: -40px;
-    margin-left: 19vh;
+    background: url(../images/roundups/illustration-roundups.png);
+    background-position: 350px -75px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -760px;
+    height: 900px;
 }
 
 .sub-bnr-roundups h5 {
@@ -3884,8 +3887,8 @@ header.header-3d {
 }
 
 #testimonial-roundups {
-    margin-top: 15vh;
-    margin-left: 50vw;
+    margin-top: 130px;
+    margin-left: 54vw;
 }
 
 #testimonial-roundups h1 {
@@ -5553,6 +5556,9 @@ ROUND UPS BNR
     overflow: hidden;
     position: relative;
     padding-bottom: 150px;
+    margin: 0 auto;
+    width: 2000px;
+    height: 900px;
 }
 
 .circle-roundups {
@@ -5568,12 +5574,13 @@ ROUND UPS BNR
     border-top-right-radius: 0;
     margin-top: -779px;
     padding-top: 779px;
-    margin-left: -48vw;
+    margin-left: -900px;
     /*
     margin-left: calc(0px - ((2297px - 100vw + 800px) * 0.5));
     margin-right: calc(0px - ((2297px - 100vw) * 0.5));
 */
     overflow: hidden;
+    display: block;
 }
 
 footer {
@@ -5581,8 +5588,8 @@ footer {
 }
 
 .phone {
-    width: 348.6px;
-    height: 582.5px;
+    width: 300px;
+    height: 575px;
     border-radius: 50px;
     background-color: #ffffff;
     -ms-transform: rotate(-40deg);
@@ -5599,7 +5606,7 @@ footer {
     height: 497px;
     width: auto;
     margin-top: 40px;
-    margin-left: 40px;
+    margin-left: 15px;
 }
 
 .phone-1 {
@@ -5711,22 +5718,15 @@ footer {
 }
 
 .header-roundups {
-    margin-top: 200px;
 }
 
 .sub-bnr-content-roundups {
-    width: calc(100vw + 23vw);
-    position: absolute;
-    top: 0px;
-    left: -23vw;
-    background: transparent url(../images/roundups/illustration-roundups.png) top center no-repeat;
-    /*background-image: linear-gradient(to right, #081d4c 0%, #3e82f7 97%);
-    background-image: linear-gradient(to right, var(--dark-indigo) 0%, var(--dodger-blue) 97%);*/
-    margin-top: -70px;
-    margin-left: 12vw;
+
 }
 
-.roundups-content {}
+.roundups-content {
+    display: block;
+}
 
 .roundups-content h2 {
     font-family: 'Martel', sans-serif;
@@ -5780,7 +5780,7 @@ footer {
     line-height: 1.15;
     text-align: center;
     color: #3e82f7;
-    padding-bottom: 76px;
+    padding-bottom: 38px;
 }
 
 #connected p {
@@ -5849,9 +5849,30 @@ footer {
 }
 
 #case-study {
-    padding: 62px 125px 50px 62px;
-    width: 651px;
-    float: left;
+    padding: 5% 8% 5% 5%;
+    width: auto;
+    height: 681px;
+}
+
+#case-study-img img:nth-of-type(1) {
+    width: 50%;
+    height: auto;
+    min-width: 521px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#case-study-img img:nth-of-type(2) {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#case-study-img {
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 #right-half-module {
@@ -5983,4 +6004,54 @@ footer {
 
 .center-content {
     margin: 0 auto;
+}
+
+.relative-center {
+    position:absolute;
+}
+
+.phone-roundups {
+    float: left;
+    margin: 19vh 0px 0px 28vw
+}
+
+.divider {
+    width: 200px;
+    height: 7px;
+}
+
+.divider-blue {
+    background: #3e82f7;
+}
+
+.divider-teal {
+    background: #2dd6a5;
+}
+
+.screenshot-desc h1 {
+    margin: 0px;
+    padding-bottom: 30px;
+}
+
+.screenshot-desc p {
+    padding-top: 30px;
+}
+
+#case-study h1 {
+    margin: 0px;
+    padding-bottom: 30px;
+    max-width: 360px;
+}
+
+#case-study p:nth-of-type(1) {
+    padding-top: 30px;
+}
+
+#case-study p {
+    max-width: 465px;
+}
+
+.mcdonalds_house_screen_insitu {
+    float: right;
+    margin-left: 45px;
 }

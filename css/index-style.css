@@ -3913,6 +3913,33 @@ header.header-3d {
     color: #ffffff;
 }
 
+#testimonial-flash {
+    margin-top: 130px;
+    margin-left: 54vw;
+}
+
+#testimonial-flash h1 {
+    width: 423px;
+    height: 202px;
+    font-family: 'Martel', sans-serif;
+    font-size: 62px;
+    line-height: 1.1;
+    letter-spacing: -0.3px;
+    text-align: left;
+    color: #ffffff;
+}
+
+#testimonial-flash h3 {
+    width: 300px;
+    height: 15px;
+    font-family: 'WorkSans' sans-serif;
+    font-size: 21px;
+    line-height: 1.1;
+    letter-spacing: 1.9px;
+    text-align: left;
+    color: #ffffff;
+}
+
 .testimonial .slider-sec {
     max-width: 1277px;
     text-align: center;
@@ -5781,6 +5808,7 @@ footer {
     text-align: center;
     color: #3e82f7;
     padding-bottom: 38px;
+    margin: 0px;
 }
 
 #connected p {
@@ -5838,6 +5866,10 @@ footer {
 
 #screenshots {
     margin-top: 100px;
+}
+
+#screenshots h1 {
+    margin: 0px;
 }
 
 .screenshot-offset {
@@ -6054,4 +6086,23 @@ footer {
 .mcdonalds_house_screen_insitu {
     float: right;
     margin-left: 45px;
+}
+
+.illustration-flash {
+    vertical-align: middle;
+}
+
+.flash-frame {
+    height: 316px;
+    text-align: center;
+    white-space: nowrap;
+    margin: 1em 0;
+}
+
+#summary-roundups {
+    height
+}
+
+#summary-flash {
+    height: 100%
 }

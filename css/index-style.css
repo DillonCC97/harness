@@ -5965,7 +5965,7 @@ footer {
     color: #081d4c;
     display: inline-block;
     text-align: center;
-    margin-top: 55px;
+    margin-top: 30px;
 }
 
 #top-content a:hover {
@@ -6085,7 +6085,7 @@ footer {
 }
 
 #case-study p {
-    max-width: 465px;
+    max-width: 600px;
 }
 
 .mcdonalds_house_screen_insitu {

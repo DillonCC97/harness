@@ -461,13 +461,14 @@ section {
 }
 
 .heading-block-3 h3 {
-    font-family: Martel;
+    font-family: 'Martel', sans-serif;
     font-size: 40px;
     line-height: 1.15;
     text-align: center;
     color: #3e82f7;
     margin-top: 10px;
     text-transform: none;
+    font-weight: 100;
 }
 
 .heading-block-3 p {
@@ -1413,6 +1414,7 @@ header.header-3d {
     line-height: 1.1;
     letter-spacing: -0.3px;
     text-align: left;
+    font-weight: 100;
 }
 
 .sub-bnr-home p {
@@ -2758,21 +2760,32 @@ header.header-3d {
     margin-bottom: 20px;
     width: 157px;
     height: 42px;
-    font-family: Martel;
+    font-family: 'Martel', sans-serif;
     font-size: 40px;
     line-height: 1.15;
     text-align: left;
     color: #081d4c;
+    font-weight: 100;
 }
 
 .services p {
     width: 367px;
-    height: 66px;
-    font-family: Work Sans;
+    font-family: 'WorkSans', sans-serif;
     font-size: 18px;
     line-height: 1.33;
     text-align: left;
     color: #081d4c;
+}
+
+.services a {
+    font-family: 'WorkSans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.44;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #3e82f7;
+    text-decoration: underline;
 }
 
 .services .services-grid ul {
@@ -3946,7 +3959,6 @@ header.header-3d {
 
 .testimonial h1 {
     margin-bottom: 20px;
-    width: 283px;
     font-family: Martel;
     font-size: 40px;
     line-height: 1.15;
@@ -3968,13 +3980,14 @@ header.header-3d {
 }
 
 .testimonial .heading-block-3 h2 {
-    font-family: Martel;
+    font-family: 'Martel', sans-serif;
     font-size: 40px;
     line-height: 1.15;
     text-align: center;
     color: #081d4c;
     margin-top: 10px;
     text-transform: none;
+    font-weight: 100;
 }
 
 .testimonial .heading-block-3 h4 {
@@ -4092,6 +4105,28 @@ header.header-3d {
 
 .client-img {
     margin-top: 80px;
+}
+
+.client-img-container {
+    width: 216px;
+    height: 176px;
+    opacity: 0.2;
+    background-color: #e1e1e1;
+    white-space: nowrap;
+    text-align: center;
+    margin: 1em 0;
+}
+
+.client-img div {
+    height: 176px;
+    line-height: 176px;
+    text-align: center;
+    background-color: rgba(255,255,255,0.6);
+    background-clip: content-box;
+}
+
+.client-img img {
+    vertical-align: center;
 }
 
 .client-img li {
@@ -5692,6 +5727,8 @@ footer {
 
 .text-info h3 {
     line-height: 1.3;
+    font-weight: 100;
+    color: #081d4c;
 }
 
 #policies div p a {
@@ -6054,4 +6091,12 @@ footer {
 .mcdonalds_house_screen_insitu {
     float: right;
     margin-left: 45px;
+}
+
+.text-info p {
+    line-height: 24px;
+}
+
+.slick-content h1 {
+    width: 283px;
 }

@@ -1,24 +1,24 @@
 /*------------------------------------------------------------------
 body
- + WRAP
- + HEADER
- + NAVIGATION
- + BANNER
- + SERVICES
- + OUR FEATURED FOUNDERS
- + BLOG UPDATES
- + APPOINMENT
- + NEWS FROM BLOG
- + PARTNERS / CLIENTS
- + FOOTER
- + SOCIAL ICONS
- + MEGA MENU
- + 3 MENU LEVEL
++ WRAP
++ HEADER
++ NAVIGATION
++ BANNER
++ SERVICES
++ OUR FEATURED FOUNDERS
++ BLOG UPDATES
++ APPOINMENT
++ NEWS FROM BLOG
++ PARTNERS / CLIENTS
++ FOOTER
++ SOCIAL ICONS
++ MEGA MENU
++ 3 MENU LEVEL
 -------------------------------------------------------------------*/
 
 
 /*=======================================================
-      IMPORT FILE
+IMPORT FILE
 ========================================================*/
 
 @import url("../fonts/montserrat-fonts.css");
@@ -27,7 +27,7 @@ body
 @import url("animate.css");
 
 /*=======================================================
-      THEME STYLING START
+THEME STYLING START
 ========================================================*/
 
 * {
@@ -45,7 +45,7 @@ body {
 
 
 /*=======================================================
-      WRAPPER
+WRAPPER
 ========================================================*/
 
 #wrap {
@@ -56,7 +56,7 @@ body {
 
 
 /*=======================================================
-      HEADINGS
+HEADINGS
 ========================================================*/
 
 h1,
@@ -273,7 +273,7 @@ a:focus {}
 
 
 /*=======================================================
-      SECTION
+SECTION
 ========================================================*/
 
 section {
@@ -290,7 +290,7 @@ section {
 
 
 /*=======================================================
-      BUTTON
+BUTTON
 ========================================================*/
 
 .btn {
@@ -335,7 +335,7 @@ section {
 
 
 /*=======================================================
-      HEADINGS
+HEADINGS
 ========================================================*/
 
 .heading-block {
@@ -480,7 +480,7 @@ section {
 
 
 /*=======================================================
-      TOP BAR
+TOP BAR
 ========================================================*/
 
 .top-bar {
@@ -508,7 +508,7 @@ section {
 
 
 /*=======================================================
-      HEADER
+HEADER
 ========================================================*/
 
 header {
@@ -998,7 +998,7 @@ header.header-3d {
 
 
 /*=======================================================
-      HOME
+HOME
 ========================================================*/
 
 .home-agency {
@@ -1121,7 +1121,7 @@ header.header-3d {
 
 
 /*=======================================================
-      HOME SLIDER
+HOME SLIDER
 ========================================================*/
 
 .home-slide {
@@ -1189,7 +1189,7 @@ header.header-3d {
 
 
 /*=======================================================
-      Separator
+Separator
 ========================================================*/
 
 .cir-tri-bg {
@@ -1238,7 +1238,7 @@ header.header-3d {
 
 
 /*=======================================================
-      HELLO
+HELLO
 ========================================================*/
 
 .hello {
@@ -1327,7 +1327,7 @@ header.header-3d {
 
 
 /*=======================================================
-      SUB BANNE
+SUB BANNE
 ========================================================*/
 
 .sub-bnr {
@@ -1526,7 +1526,7 @@ header.header-3d {
 
 
 /*=======================================================
-      WORK PROCESS
+WORK PROCESS
 ========================================================*/
 
 .work-process .cir-tri-bg {
@@ -1668,7 +1668,7 @@ header.header-3d {
 
 
 /*=======================================================
-      WORK
+WORK
 ========================================================*/
 
 .process-style-2 ul li:nth-child(1) {
@@ -1712,7 +1712,7 @@ header.header-3d {
 
 
 /*=======================================================
-      WORK
+WORK
 ========================================================*/
 
 .our-work {
@@ -1777,7 +1777,7 @@ header.header-3d {
 
 
 /*=======================================================
-      PORTFOLIO
+PORTFOLIO
 ========================================================*/
 
 .portfolio {
@@ -1989,7 +1989,7 @@ header.header-3d {
 
 
 /*=======================================================
-      SINGLE PROJECT
+SINGLE PROJECT
 ========================================================*/
 
 .single-progect .heading-block h6 {
@@ -2041,7 +2041,7 @@ header.header-3d {
 
 
 /*=======================================================
-      PORTFOLIO DETAIL
+PORTFOLIO DETAIL
 ========================================================*/
 
 .portfolio-details {
@@ -2130,7 +2130,7 @@ header.header-3d {
 
 
 /*=======================================================
-      FEATURED
+FEATURED
 ========================================================*/
 
 .more-feature ul li {
@@ -2188,7 +2188,7 @@ header.header-3d {
 
 
 /*=======================================================
-      PROJECT IN MIND
+PROJECT IN MIND
 ========================================================*/
 
 .project-mind {
@@ -2230,7 +2230,7 @@ header.header-3d {
 
 
 /*=======================================================
-      OUR TEAM
+OUR TEAM
 ========================================================*/
 
 .our-team {}
@@ -2314,7 +2314,7 @@ header.header-3d {
 
 
 /*=======================================================
-      PROFILE MAIN
+PROFILE MAIN
 ========================================================*/
 
 .profile-main {
@@ -2442,7 +2442,7 @@ header.header-3d {
 
 
 /*=======================================================
-      SKILLS
+SKILLS
 ========================================================*/
 
 .skil-bg {
@@ -2451,7 +2451,7 @@ header.header-3d {
 
 
 /*=======================================================
-            SKILLS
+SKILLS
 ========================================================*/
 
 .skills p {
@@ -2543,7 +2543,7 @@ header.header-3d {
 
 
 /*=======================================================
-      Education
+Education
 ========================================================*/
 
 .education {
@@ -2593,7 +2593,7 @@ header.header-3d {
 
 
 /*=======================================================
-      Experience
+Experience
 ========================================================*/
 
 .experience {
@@ -2642,7 +2642,7 @@ header.header-3d {
 
 
 /*=======================================================
-      Awards
+Awards
 ========================================================*/
 
 .awards {
@@ -2694,7 +2694,7 @@ header.header-3d {
 
 
 /*=======================================================
-      Services
+Services
 ========================================================*/
 
 .services.web {
@@ -2820,7 +2820,7 @@ header.header-3d {
 
 
 /*=======================================================
-      BLOG LIST STYLE
+BLOG LIST STYLE
 ========================================================*/
 
 .blog-list .list-tags a {
@@ -2927,7 +2927,7 @@ header.header-3d {
 
 
 /*=======================================================
-      PRICING
+PRICING
 ========================================================*/
 
 .pricing {
@@ -3037,7 +3037,7 @@ header.header-3d {
 
 
 /*=======================================================
-      CLIENTS
+CLIENTS
 ========================================================*/
 
 .love-client {
@@ -3046,7 +3046,7 @@ header.header-3d {
 
 
 /*=======================================================
-      TESTI NORMAL
+TESTI NORMAL
 ========================================================*/
 
 .testi-sim i {
@@ -3081,7 +3081,7 @@ header.header-3d {
 
 
 /*=======================================================
-      SERVICES
+SERVICES
 ========================================================*/
 
 .services-main {}
@@ -3111,7 +3111,7 @@ header.header-3d {
 
 
 /*=======================================================
-      HELLO I AM
+HELLO I AM
 ========================================================*/
 
 .hello-i-am .test-sec {
@@ -3178,7 +3178,7 @@ header.header-3d {
 
 
 /*=======================================================
-      BLOG
+BLOG
 ========================================================*/
 
 .blog {
@@ -3543,7 +3543,7 @@ header.header-3d {
 
 
 /*=======================================================
-      COMMENTS
+COMMENTS
 ========================================================*/
 
 .comments {
@@ -3675,7 +3675,7 @@ header.header-3d {
 
 
 /*=======================================================
-      COMING SOON
+COMING SOON
 ========================================================*/
 
 .bg-black {
@@ -3799,7 +3799,7 @@ header.header-3d {
 
 
 /*=======================================================
-      FOOTER
+FOOTER
 ========================================================*/
 
 .footer {
@@ -3892,7 +3892,7 @@ header.header-3d {
 
 
 /*=======================================================
-            testimonial
+testimonial
 ========================================================*/
 
 .testimonial-index {
@@ -3917,33 +3917,6 @@ header.header-3d {
 
 #testimonial-roundups h3 {
     width: 145px;
-    height: 15px;
-    font-family: 'WorkSans' sans-serif;
-    font-size: 21px;
-    line-height: 1.1;
-    letter-spacing: 1.9px;
-    text-align: left;
-    color: #ffffff;
-}
-
-#testimonial-flash {
-    margin-top: 130px;
-    margin-left: 54vw;
-}
-
-#testimonial-flash h1 {
-    width: 423px;
-    height: 202px;
-    font-family: 'Martel', sans-serif;
-    font-size: 62px;
-    line-height: 1.1;
-    letter-spacing: -0.3px;
-    text-align: left;
-    color: #ffffff;
-}
-
-#testimonial-flash h3 {
-    width: 300px;
     height: 15px;
     font-family: 'WorkSans' sans-serif;
     font-size: 21px;
@@ -4163,7 +4136,7 @@ header.header-3d {
 
 
 /*=======================================================
-            CONTACT FORM
+CONTACT FORM
 ========================================================*/
 
 .contact #contact_form {
@@ -4490,7 +4463,7 @@ header.header-3d {
 
 
 /*=======================================================
-            HOME 2
+HOME 2
 ========================================================*/
 
 .home-2 .home-agency {
@@ -4666,7 +4639,7 @@ header.header-3d {
 
 /*
 .footer.footer-sub a {
-    color: #ffffff;
+color: #ffffff;
 }
 */
 
@@ -4687,7 +4660,7 @@ header.header-3d {
 
 
 /*=======================================================
-            GO TO TOP
+GO TO TOP
 ========================================================*/
 
 .cd-top {
@@ -4799,7 +4772,7 @@ header.header-3d {
 
 
 /*=======================================================
-            GO TO TOP
+GO TO TOP
 ========================================================*/
 
 .dark-version .footer {
@@ -4916,7 +4889,7 @@ header.header-3d {
 
 
 /*.dark-version .cbp-l-filters-buttonCenter .cbp-filter-item {
-    background: #202020;
+background: #202020;
 }*/
 
 .dark-version .filter-style-1 .cbp-filter-item.cbp-filter-item-active:before {
@@ -5105,12 +5078,12 @@ header.header-3d {
 
 
 /*=======================================================
-      29-12-2016
+29-12-2016
 ========================================================*/
 
 
 /*=======================================================
-      POERFOLIO COL
+POERFOLIO COL
 ========================================================*/
 
 .col-4 .portfolio-item {
@@ -5640,7 +5613,7 @@ ROUND UPS BNR
     /*
     margin-left: calc(0px - ((2297px - 100vw + 800px) * 0.5));
     margin-right: calc(0px - ((2297px - 100vw) * 0.5));
-*/
+    */
     overflow: hidden;
     display: block;
 }
@@ -5845,7 +5818,6 @@ footer {
     text-align: center;
     color: #3e82f7;
     padding-bottom: 38px;
-    margin: 0px;
 }
 
 #connected p {
@@ -5903,10 +5875,6 @@ footer {
 
 #screenshots {
     margin-top: 100px;
-}
-
-#screenshots h1 {
-    margin: 0px;
 }
 
 .screenshot-offset {
@@ -6126,45 +6094,28 @@ footer {
     margin-left: 45px;
 }
 
-<<<<<<< HEAD
-.illustration-flash {
-    vertical-align: middle;
-}
-
-.flash-frame {
-    height: 316px;
-    text-align: center;
-    white-space: nowrap;
-    margin: 1em 0;
-}
-
-#summary-roundups {
-    height
-}
-
-#summary-flash {
-    height: 100%
-=======
 .text-info p {
     line-height: 24px;
 }
 
 .slick-content h1 {
     width: 283px;
->>>>>>> origin/master
 }
 
 #flash-shape {
     -webkit-clip-path: polygon(0% 94%, 51% 87%, 53% 73%, 100% 62%, 100% 0%, 0% 0%);
-        clip-path: polygon(0% 94%, 51% 87%, 53% 73%, 100% 62%, 100% 0%, 0% 0%);
+    clip-path: polygon(0% 94%, 51% 87%, 53% 73%, 100% 62%, 100% 0%, 0% 0%);
     background-color: #2dd6a5;
     height: 800px;
     z-index: 2;
 }
 
 #roundups-shape {
-    -webkit-clip-path: ellipse(68% 50% at 36% 3%);
-    clip-path: ellipse(68% 50% at 36% 3%);
+    -webkit-clip-path: circle(1280px at 40% -480px);
+        clip-path: cir8779.9% at -60%0% 0);
+    background-color: #3e82f7;
+    height: 800px;
+    z-index: 2;
 }
 
 #home-shape {
@@ -6213,9 +6164,7 @@ footer {
     width: 1500px;
 }
 
-#summary-flash {
-    margin-top: -200px;
-}
+
 
 .illustration-flash {
     padding: 45px;
@@ -6236,8 +6185,8 @@ footer {
 
 .icon-flash {
     width: 217px;
-      height: 209px;
-      object-fit: contain;
+    height: 209px;
+    object-fit: contain;
 }
 
 .flat-screen-flash-sm {
@@ -6259,4 +6208,54 @@ footer {
 #top-half-flash {
     height: 398px;
     background: #fbc357 url('../images/cd-header-illustration.png') center no-repeat;
+}
+#bg-roundups {
+    position: absolute;
+    z-index: 100;
+    background: url('../images/roundups/illustration-roundups.png') no-repeat;
+    height: 710px;
+    width: 1300px;
+    margin: 64px 0px 0px 120px;
+    opacity: 0.5;
+}
+
+#sub-bnr-roundups {
+    margin-top: 72px;
+    width: 470px;
+}
+
+#sub-bnr-roundups h1 {
+    color: #ffffff;
+}
+
+#sub-bnr-roundups h3 {
+    color: #ffffff;
+}
+
+.sub-bnr-content h1 {
+    font-family: 'Martel', sans-serif;
+    font-size: 62px;
+    line-height: 1.1;
+    letter-spacing: -0.3px;
+    text-align: left;
+    font-weight: 100;
+}
+
+.sub-bnr-content h3 {
+    font-family: 'WorkSans', sans-serif;
+    font-size: 21px;
+    line-height: 1.1;
+    letter-spacing: 1.9px;
+    text-align: left;
+    font-weight: 100;
+}
+
+
+
+.sub-bnr-offset-roundups {
+    margin-top: -600px;
+}
+
+.sub-bnr-offset-flash {
+    margin-top: -200px;
 }

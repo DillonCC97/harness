@@ -5643,7 +5643,6 @@ footer {
     /*    width: 328px;*/
     height: 497px;
     width: auto;
-    margin-top: -250px;
     margin-left: 15px;
 }
 
@@ -6261,8 +6260,8 @@ footer {
 }
 
 #custom-shape {
-    -webkit-clip-path: polygon(0% 47%, 68% 68%, 100% 0%, 0% 0%);
-    clip-path: polygon(0% 47%, 68% 68%, 100% 0%, 0% 0%);
+    -webkit-clip-path: polygon(0% 47%, 68% 68%, 95% 0%, 0% 0%);
+    clip-path: polygon(0% 47%, 68% 68%, 95% 0%, 0% 0%);
     height: 800px;
     z-index: 2;
     background-color: #fbc357;
@@ -6283,4 +6282,21 @@ footer {
 
 #sub-bnr-custom {
     margin-top: 72px;
+}
+
+#sub-bnr-custom h1 {
+    width: 400px;
+}
+
+.screen-flash-donations-cch {
+    margin-top: -250px;
+}
+
+.screen-roundups-donations-cch {
+    margin-top: -310px;
+}
+
+.phone-custom {
+    top: -200px;
+    left: 400px;
 }

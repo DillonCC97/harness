@@ -5627,16 +5627,32 @@ footer {
     height: 575px;
     border-radius: 50px;
     background-color: #ffffff;
-    -ms-transform: rotate(-40deg);
+    -ms-transform: rotate(-10deg);
     /* IE 9 */
     -webkit-transform: rotate(-10deg);
     /* Safari */
     transform: rotate(-10deg);
     box-shadow: 2.6px 3.1px 4.8px 0.3px rgba(0, 0, 0, 0.15);
+    /* REMOVE POSITIONING */
     position: relative;
-    top: 140px;
-    left: -330px;
     z-index: 9999;
+}
+
+.tablet {
+    width: 700px;
+    height: 575px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    -ms-transform: rotate(-10deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-10deg);
+    /* Safari */
+    transform: rotate(-10deg);
+    box-shadow: 2.6px 3.1px 4.8px 0.3px rgba(0, 0, 0, 0.15);
+    /* REMOVE POSITIONING */
+    position: relative;
+    z-index: 9998;
+    top: 70px;
 }
 
 .phone img {
@@ -6214,7 +6230,12 @@ footer {
 
 #top-half-custom {
     height: 398px;
-    background: #87b8ff url('../images/engage-header-illustration.png') center no-repeat;
+    background: #87b8ff url('../images/') center no-repeat;
+}
+
+#top-half-white {
+    height: 398px;
+    background: #2dd6a5 url('../images/flash-header-illustration_2.png') center no-repeat;
 }
 #bg-roundups {
     position: absolute;
@@ -6275,6 +6296,14 @@ footer {
     background-color: #fbc357;
 }
 
+#white-shape {
+    -webkit-clip-path: polygon(0% 62%, 100% 36%, 100% 0%, 0% 0%);
+    clip-path: polygon(0% 82%, 100% 36%, 100% 0%, 0% 0%);
+    height: 800px;
+    z-index: 2;
+    background-color: #e2dfd6;
+}
+
 #bnr-custom {
     height: 800px;
 }
@@ -6288,9 +6317,31 @@ footer {
     margin: 64px 0px 0px 120px;
 }
 
+#bg-white {
+    position: absolute;
+    z-index: 100;
+    background: url('../images/illustration-your-brand.png') no-repeat;
+    height: 710px;
+    width: 1300px;
+    margin: 64px 0px 0px 120px;
+}
+
 #sub-bnr-custom {
     margin-top: 72px;
     height: 600px;
+}
+
+#sub-bnr-white {
+    margin-top: 72px;
+    height: auto;
+}
+
+#sub-bnr-white h1 {
+    color: #001043;
+}
+
+#sub-bnr-white h3 {
+    color: #001043;
 }
 
 #sub-bnr-custom h1 {
@@ -6317,4 +6368,12 @@ footer {
 
 .sub-bnr-offset-custom {
     margin-bottom: -1800px;
+}
+
+.phone-white {
+    top: -40px;
+}
+
+.divider-grey {
+    background: #e2dfd6;
 }

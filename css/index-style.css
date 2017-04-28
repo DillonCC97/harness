@@ -6064,8 +6064,7 @@ footer {
 }
 
 .phone-roundups {
-    float: left;
-    margin: 19vh 0px 0px 28vw
+    top: 110px;
 }
 
 .divider {
@@ -6171,6 +6170,16 @@ footer {
 }
 
 #bg-flash {
+    position: absolute;
+    z-index: 100;
+    background: url('../images/analyze-header-illustration.png') no-repeat;
+    height: 710px;
+    width: 1300px;
+    margin: 64px 0px 0px 120px;
+    opacity: 0.5;
+}
+
+#bg-engage {
     position: absolute;
     z-index: 100;
     background: url('../images/flash-header-illustration.png') no-repeat;
@@ -6285,7 +6294,7 @@ footer {
 }
 
 .sub-bnr-offset-flash {
-    margin-top: -200px;
+    margin-top: -450px;
 }
 
 #custom-shape {
@@ -6349,15 +6358,15 @@ footer {
 }
 
 .screen-flash-donations-cch {
-    margin-top: -250px;
+    margin-top: 40px;
 }
 
 .screen-roundups-donations-cch {
-    margin-top: -310px;
+    margin-top: 40px;
 }
 
 .phone-custom {
-
+    top: 120px;
 }
 
 .screen-custom-custom {
@@ -6376,4 +6385,11 @@ footer {
 
 .divider-grey {
     background: #e2dfd6;
+}
+
+#engage-shape {
+    z-index: 2;
+    height: 900px;
+    display: block;
+    margin: -80px auto;
 }

@@ -915,7 +915,7 @@ header .is-sticky .sticky .nav .dropdown-menu {
 .container {
     /*position: relative;*/
     /*width: 1178px;*/
-    z-index: 3;
+    z-index: 6;
 }
 
 .logo-center {
@@ -5635,7 +5635,7 @@ footer {
     box-shadow: 2.6px 3.1px 4.8px 0.3px rgba(0, 0, 0, 0.15);
     /* REMOVE POSITIONING */
     position: relative;
-    z-index: 9999;
+    z-index: 5;
 }
 
 .tablet {
@@ -5690,7 +5690,7 @@ footer {
 }
 
 .testimonial a:hover,
-#left-half-module a:hover {
+#left-half-module a:hover, #sub-bnr-home a:hover {
     background: #fff;
     color: #3e82f7;
 }
@@ -6202,10 +6202,10 @@ footer {
 }
 
 #home-shape {
-    -webkit-clip-path: ellipse(60% 95% at 50% 0%);
-    clip-path: ellipse(60% 95% at 50% 0%);
+    -webkit-clip-path: ellipse(60% 100% at 50% 0%);
+    clip-path: ellipse(70% 110% at 50% 0%);
     background-color: #081d4c;
-    height: 900px;
+    height: 1000px;
     z-index: 2;
 }
 
@@ -6215,6 +6215,13 @@ footer {
     position: relative;
     height: 800px;
     top: -800px;
+    z-index: 101;
+}
+
+.front-home {
+    position: relative;
+    height: 800px;
+    top: -900px;
     z-index: 101;
 }
 
@@ -6344,6 +6351,16 @@ footer {
     opacity: 0.5;
 }
 
+#bg-home {
+    position: absolute;
+    z-index: 2;
+    background: url('../images/illustration-header-home.png') top center no-repeat;
+    height: 982px;
+    width: 1668px;
+    margin: 0px 0px 0px 120px;
+    opacity: 0.8
+}
+
 #sub-bnr-roundups {
     margin-top: 72px;
     width: 470px;
@@ -6355,6 +6372,26 @@ footer {
 
 #sub-bnr-roundups h3 {
     color: #ffffff;
+}
+
+#sub-bnr-home {
+    max-width: 470px;
+}
+
+#sub-bnr-home h1 {
+    color: #ffffff;
+}
+
+#sub-bnr-home h3 {
+    color: #ffffff;
+}
+
+#sub-bnr-home p {
+    color: #fff;
+    line-height: 1.33;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 100;
 }
 
 .sub-bnr-content h1 {
@@ -6516,3 +6553,35 @@ footer {
 .phone-engage {
     margin-top: 100px;
 }
+
+#sub-bnr-home a {
+    width: 217px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #3e82f7;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.44;
+    letter-spacing: 0.8px;
+    padding: 18px 40px;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.phone-home-1 {
+    margin-top: 100px;
+}
+
+.phone-home-2 {
+    margin-top: 160px;
+    margin-left: 40px
+}
+
+#content {
+    margin-top: -700px;
+}
+
+

@@ -6585,3 +6585,7 @@ footer {
 }
 
 
+
+.overflow-visible {
+    overflow: visible;
+}
